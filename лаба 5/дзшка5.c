@@ -15,11 +15,11 @@ int main(void)
     double v1, v2, v;
 
    
-    printf("Введите x: ");
+    printf("Р’РІРµРґРёС‚Рµ x: ");
     scanf("%lf", &x);
-    printf("Введите y: ");
+    printf("Р’РІРµРґРёС‚Рµ y: ");
     scanf("%lf", &y);
-    printf("Введите z: ");
+    printf("Р’РІРµРґРёС‚Рµ z: ");
     scanf("%lf", &z);
 
    
@@ -36,20 +36,20 @@ int main(void)
    
     v = v1 + v2;
 
-    // Вывод
-    printf("\nРезультаты:\n");
-    printf("Исходные данные:\n");
+    // Р’С‹РІРѕРґ
+    printf("\nР РµР·СѓР»СЊС‚Р°С‚С‹:\n");
+    printf("РСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ:\n");
     printf("  x = %.4lf\n", x);
     printf("  y = %.4lf\n", y);
     printf("  z = %.4lf\n", z);
-    printf("Промежуточные значения:\n");
+    printf("РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ:\n");
     printf("  sin(x+y)     = %.6lf\n", sin(x + y));
     printf("  1 + sin^2    = %.6lf\n", numerator);
-    printf("  знаменатель  = %.6lf\n", denominator);
+    printf("  Р·РЅР°РјРµРЅР°С‚РµР»СЊ  = %.6lf\n", denominator);
     printf("  x^|y|        = %.6lf\n", power);
-    printf("  v1 (часть 1) = %.6lf\n", v1);
-    printf("  v2 (часть 2) = %.6lf\n", v2);
-    printf("Ответ:\n");
+    printf("  v1 (С‡Р°СЃС‚СЊ 1) = %.6lf\n", v1);
+    printf("  v2 (С‡Р°СЃС‚СЊ 2) = %.6lf\n", v2);
+    printf("РћС‚РІРµС‚:\n");
     printf("  v = %.4lf\n", v);
 
     return 0;
